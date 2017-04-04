@@ -1,0 +1,52 @@
+section.map{
+  padding-top: 55px;
+  background-color: $black-color;
+  position: relative;
+  .map-contact{
+    position: absolute;
+    top: 75px;
+    z-index: 999;
+    width: 100%;
+    p, p>a{
+      margin-bottom: 3px;
+      list-style-type: none;
+      color: $whitecolor;
+      font-family: $roboto-font;
+      font-size: 13px;
+      letter-spacing: 3px;
+    }
+    .soc-icons{
+      float:right;
+      li{
+        float:left;
+        list-style: none;
+        a{
+          color:$whitecolor;
+          font-size: 30px;
+          margin: 10px;
+        }
+      }
+    }
+  }
+  #map{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 500px;
+  }
+}
+
+@media (max-width: 767px) {
+  section.map{
+    .map-contact{
+      .soc-icons {
+        float: left!important;
+        padding: 0;
+        li a{
+          margin: 7px 14px 7px 0;
+        }
+      }
+    }
+  }
+
+}

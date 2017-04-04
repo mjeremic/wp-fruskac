@@ -15,6 +15,8 @@ $roboto-font:'Roboto', sans-serif;
 
 @import 'menu';
 @import 'title';
+@import 'news';
+@import 'map';
 
 section{
   div{
@@ -28,35 +30,6 @@ section{
   }
 }
 
-section#news{
-  padding: 50px 0;
-  div.text{
-    background-color: $light-grey;
-    margin-top: 16px;
-    padding: 40px 52px 8px 68px;
-    h4{
-      color: $black-color;
-      font-size: 40px;
-      font-family:$cantana-font ;
-      margin: 0;
-      letter-spacing: 1px;
-      font-weight: 400;
-      padding-top: 20px;
-    }
-    p{
-      font-family: $open-font;
-      line-height: 1.5;
-      font-size: 16px;
-      letter-spacing: 0.8px;
-      margin-bottom: 10px;
-      margin-top: 23.2px
-    }
-    img{
-      height: 48px;
-      float: right;
-    }
-  }
-}
 section{
   div.video{
     position: relative;
@@ -103,13 +76,9 @@ section{
       }
     }
   }
-
 }
 
-//map
-section{
-  div.map{
-    padding-top: 55px;
-    background-color: $black-color;
-  }
-}
+
+
+
+

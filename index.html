@@ -109,7 +109,10 @@
         </section>
         <section id="news">
             <div class="container">
-                <img src="img/quet-fruskac-salon-vina-beograd-novosti.jpeg" alt="">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="news-img">
+                    <img src="img/quet-fruskac-salon-vina-beograd-novosti.jpeg" alt="">
+                </div>
+
                 <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12 pull-right text">
                     <h4>Quet i Fruškać na Beogradskom salonu vina</h4>
                     <p>Vinarija Fruškogorski vinogradi učestvuje na Beogradskom salonu vina sa serijama Quet i Fruškać vina. Salon se po tradiciji održava u Hyatt Regency Beograd hotelu, 9 i 10. decembra, a predstaviće se 90 vinarija, 500 različitih vina i 70 sorti grožđa. Pozivamo Vas da nas posetite u Kristalnoj dvorani, uživate u našim vinima i upoznate jedinstvenu ponudu iz serije Fruškać vina.</p>
@@ -118,27 +121,33 @@
                 
             </div>
         </section>
-        <section>
-            <div class="map">
-                <div class="col-sm-6 info">
-                    <p>FRUŠKOGORSKI VINOGRADI D.O.O. <br>
-                        Miroslava Antića 4, Novi Sad, Srbija<br>
-                        Dunavska 5, Banoštor, Srbija<br>
-                        +381 (0) 21/6613-500<br>
-                        +381 (0) 64/889-0023<br>
-                        info@fruvin.com
+        <section class="container-fluid map">
+            <div class="row">
+                <div class="map-contact">
+                    <div class="container">
+                        <div class="col-sm-6 info">
+                            <p><b>FRUŠKOGORSKI VINOGRADI D.O.O.</b> <br>
+                                Miroslava Antića 4, Novi Sad, Srbija<br>
+                                Dunavska 5, Banoštor, Srbija<br>
+                                +381 (0) 21/6613-500<br>
+                                +381 (0) 64/889-0023<br>
+                                <a href="mailto:info@fruvin.com">info@fruvin.com</a>
 
-                    </p>
+                            </p>
+                        </div>
+                        <div class="col-sm-6 social">
+                            <ul class="soc-icons">
+                                <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i>
+                                </a></li>
+                                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-sm-6 social">
-                    <ul class="soc-icons">
-                        <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i>
-                        </a></li>
-                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i>
-                        </a></li>
-                    </ul>
-                </div>
+                <div id="map"></div>
             </div>
+
         </section>
     </main>
 
@@ -146,5 +155,6 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHOXjJ_Iso6LQuyHjryYTkvmJ4VcZx8ag"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

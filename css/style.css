@@ -89,15 +89,10 @@ section {
     section .title.black h3 {
       color: #000; }
 
-section div img.full-img {
-  width: 100%; }
-
-section.black-space {
-  padding-bottom: 55px;
-  background-color: #000; }
-
 section#news {
   padding: 50px 0; }
+  section#news div#news-img img {
+    width: 100%; }
   section#news div.text {
     background-color: #d8dee9;
     margin-top: 16px;
@@ -120,6 +115,51 @@ section#news {
     section#news div.text img {
       height: 48px;
       float: right; }
+
+section.map {
+  padding-top: 55px;
+  background-color: #000;
+  position: relative; }
+  section.map .map-contact {
+    position: absolute;
+    top: 75px;
+    z-index: 999;
+    width: 100%; }
+    section.map .map-contact p, section.map .map-contact p > a {
+      margin-bottom: 3px;
+      list-style-type: none;
+      color: #fff;
+      font-family: "Roboto", sans-serif;
+      font-size: 13px;
+      letter-spacing: 3px; }
+    section.map .map-contact .soc-icons {
+      float: right; }
+      section.map .map-contact .soc-icons li {
+        float: left;
+        list-style: none; }
+        section.map .map-contact .soc-icons li a {
+          color: #fff;
+          font-size: 30px;
+          margin: 10px; }
+  section.map #map {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 500px; }
+
+@media (max-width: 767px) {
+  section.map .map-contact .soc-icons {
+    float: left !important;
+    padding: 0; }
+    section.map .map-contact .soc-icons li a {
+      margin: 7px 14px 7px 0; } }
+
+section div img.full-img {
+  width: 100%; }
+
+section.black-space {
+  padding-bottom: 55px;
+  background-color: #000; }
 
 section div.video {
   position: relative;
@@ -161,7 +201,3 @@ section div.video {
       margin-top: 15px;
       line-height: 48px;
       margin-bottom: 0; }
-
-section div.map {
-  padding-top: 55px;
-  background-color: #000; }
