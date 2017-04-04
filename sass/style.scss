@@ -17,6 +17,10 @@ $roboto-font:'Roboto', sans-serif;
 @import 'map';
 
 
+//body .row {
+//  margin: 0 auto;
+//  padding: 0;
+//}
 section{
   div{
     img.full-img{
@@ -28,7 +32,6 @@ section{
     background-color:$black-color;
   }
 }
-
 section{
   div.video{
     position: relative;
@@ -73,6 +76,14 @@ section{
         line-height: 48px;
         margin-bottom: 0;
       }
+    }
+  }
+}
+
+@media (max-width: 767px){
+  section{
+    &.black-space{
+      padding-bottom: 30px;
     }
   }
 }

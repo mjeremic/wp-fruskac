@@ -77,17 +77,42 @@ section {
       color: #fff;
       font-size: 42px;
       font-weight: 300;
-      letter-spacing: 2px; }
-      section .title h3 span {
-        font-size: 42px;
-        text-transform: uppercase;
-        font-weight: 500;
-        margin-top: 7px;
-        letter-spacing: 3px; }
+      letter-spacing: 2px;
+      margin: 0; }
+    section .title h2 {
+      font-family: "Fira Sans", sans-serif;
+      color: #fff;
+      font-size: 42px;
+      font-weight: 500;
+      margin-top: 7px;
+      letter-spacing: 3px;
+      display: inline-block; }
+      section .title h2.f-upper {
+        text-transform: uppercase; }
     section .title img {
       height: 44px; }
-    section .title.black h3 {
+    section .title.black h3, section .title.black h2 {
       color: #000; }
+
+@media (max-width: 1023px) {
+  section .title h3 {
+    font-size: 24px;
+    letter-spacing: 2px; }
+  section .title h2 {
+    font-size: 24px;
+    letter-spacing: 2px; }
+  section .title img {
+    height: 25px;
+    margin-top: -2px; } }
+
+@media (max-width: 767px) {
+  section .title h3 {
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 1px; }
+  section .title h2 {
+    font-size: 20px;
+    letter-spacing: 2px; } }
 
 section#news {
   padding: 50px 0; }
@@ -228,3 +253,7 @@ section div.video {
       margin-top: 15px;
       line-height: 48px;
       margin-bottom: 0; }
+
+@media (max-width: 767px) {
+  section.black-space {
+    padding-bottom: 30px; } }
