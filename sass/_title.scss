@@ -1,0 +1,34 @@
+section{
+  position: relative;
+  .title{
+    font-family: $fira-font;
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    margin-top: -54px;
+    text-align: left;
+    h3{
+      font-family: $fira-font;
+      color:$whitecolor;
+      font-size: 42px;
+      font-weight: 300;
+      letter-spacing: 2px;
+      span{
+        font-size: 42px;
+        text-transform: uppercase;
+        font-weight: 500;
+        margin-top: 7px;
+        letter-spacing: 3px;
+      }
+    }
+    img{
+      height: 44px;
+
+    }
+    &.black{
+      h3{
+        color:$black-color;
+      }
+    }
+  }
+}

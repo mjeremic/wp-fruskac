@@ -1,0 +1,167 @@
+header div.logo {
+  background-color: #333;
+  height: 170px; }
+  header div.logo img {
+    float: right; }
+  header div.logo .col-sm-6 {
+    margin-top: 28px; }
+  header div.logo h1, header div.logo h2 {
+    color: #fff; }
+  header div.logo h1 {
+    font-size: 20px;
+    letter-spacing: 5.8px;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding-top: 20px; }
+  header div.logo h2 {
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: 5.5px;
+    margin-top: 2px; }
+
+header div.primary-menu {
+  background-color: #fff; }
+  header div.primary-menu ul li {
+    float: left;
+    list-style: none;
+    width: calc( 100% / 6);
+    padding: 10px 15px;
+    text-align: center; }
+    header div.primary-menu ul li a {
+      text-transform: uppercase;
+      color: #000;
+      font-size: 13px;
+      font-family: "Roboto", sans-serif;
+      letter-spacing: 3px; }
+
+header div.language {
+  background-color: #333; }
+  header div.language ul {
+    width: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+    margin-left: -10px;
+    padding-left: 66px; }
+    header div.language ul li {
+      float: left;
+      list-style: none;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+      header div.language ul li a {
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-family: "Roboto", sans-serif;
+        letter-spacing: 3px;
+        margin: 0 6px; }
+        header div.language ul li a::after {
+          content: " / ";
+          color: #666;
+          font-weight: 100; }
+      header div.language ul li:last-child a::after {
+        content: ""; }
+
+section {
+  position: relative; }
+  section .title {
+    font-family: "Fira Sans", sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    margin-top: -54px;
+    text-align: left; }
+    section .title h3 {
+      font-family: "Fira Sans", sans-serif;
+      color: #fff;
+      font-size: 42px;
+      font-weight: 300;
+      letter-spacing: 2px; }
+      section .title h3 span {
+        font-size: 42px;
+        text-transform: uppercase;
+        font-weight: 500;
+        margin-top: 7px;
+        letter-spacing: 3px; }
+    section .title img {
+      height: 44px; }
+    section .title.black h3 {
+      color: #000; }
+
+section div img.full-img {
+  width: 100%; }
+
+section.black-space {
+  padding-bottom: 55px;
+  background-color: #000; }
+
+section#news {
+  padding: 50px 0; }
+  section#news div.text {
+    background-color: #d8dee9;
+    margin-top: 16px;
+    padding: 40px 52px 8px 68px; }
+    section#news div.text h4 {
+      color: #000;
+      font-size: 40px;
+      font-family: "Cantata One", serif;
+      margin: 0;
+      letter-spacing: 1px;
+      font-weight: 400;
+      padding-top: 20px; }
+    section#news div.text p {
+      font-family: "Open Sans";
+      line-height: 1.5;
+      font-size: 16px;
+      letter-spacing: 0.8px;
+      margin-bottom: 10px;
+      margin-top: 23.2px; }
+    section#news div.text img {
+      height: 48px;
+      float: right; }
+
+section div.video {
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 100vh; }
+  section div.video video {
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100; }
+  section div.video .text {
+    text-align: left;
+    position: absolute;
+    bottom: 100px;
+    left: 60px;
+    right: 20px; }
+    section div.video .text h1 {
+      font-family: "Roboto Slab", serif;
+      font-weight: 400;
+      letter-spacing: 2.5px;
+      color: #fff;
+      padding-right: 0px;
+      font-size: 50px;
+      line-height: 68px; }
+    section div.video .text h2 {
+      font-family: "Roboto Slab", serif;
+      font-size: 36px;
+      letter-spacing: 5.8px;
+      color: #fff;
+      text-transform: none;
+      font-weight: 300;
+      padding-right: 50px;
+      margin-top: 15px;
+      line-height: 48px;
+      margin-bottom: 0; }
+
+section div.map {
+  padding-top: 55px;
+  background-color: #000; }

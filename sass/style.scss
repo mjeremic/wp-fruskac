@@ -1,0 +1,115 @@
+
+$whitecolor: #fff;
+$black-color:#000;
+$light-grey: #d8dee9;
+$grey: #666;
+$dark-grey:#333;
+
+$fira-font:'Fira Sans', sans-serif;
+$cantana-font:"Cantata One", serif;
+$open-font:'Open Sans';
+$robotoslab-font: 'Roboto Slab', serif;
+$roboto-font:'Roboto', sans-serif;
+
+
+
+@import 'menu';
+@import 'title';
+
+section{
+  div{
+    img.full-img{
+      width:100%;
+    }
+  }
+  &.black-space{
+    padding-bottom: 55px;
+    background-color:$black-color;
+  }
+}
+
+section#news{
+  padding: 50px 0;
+  div.text{
+    background-color: $light-grey;
+    margin-top: 16px;
+    padding: 40px 52px 8px 68px;
+    h4{
+      color: $black-color;
+      font-size: 40px;
+      font-family:$cantana-font ;
+      margin: 0;
+      letter-spacing: 1px;
+      font-weight: 400;
+      padding-top: 20px;
+    }
+    p{
+      font-family: $open-font;
+      line-height: 1.5;
+      font-size: 16px;
+      letter-spacing: 0.8px;
+      margin-bottom: 10px;
+      margin-top: 23.2px
+    }
+    img{
+      height: 48px;
+      float: right;
+    }
+  }
+}
+section{
+  div.video{
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100vh;
+    video{
+      transform: translateX(-50%) translateY(-50%);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -100;
+    }
+    .text{
+      text-align: left;
+      position: absolute;
+      bottom: 100px;
+      left: 60px;
+      right: 20px;
+      h1{
+        font-family: $robotoslab-font;
+        font-weight: 400;
+        letter-spacing: 2.5px;
+        color: $whitecolor;
+        padding-right: 0px;
+        font-size: 50px;
+        line-height: 68px;
+      }
+      h2{
+        font-family: $robotoslab-font;
+        font-size: 36px;
+        letter-spacing: 5.8px;
+        color: $whitecolor;
+        text-transform: none;
+        font-weight: 300;
+        padding-right: 50px;
+        margin-top: 15px;
+        line-height: 48px;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+}
+
+//map
+section{
+  div.map{
+    padding-top: 55px;
+    background-color: $black-color;
+  }
+}
