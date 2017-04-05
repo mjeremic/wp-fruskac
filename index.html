@@ -1,7 +1,9 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruskogorski vinogradi</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -17,6 +19,8 @@
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext" rel="stylesheet">
 
     <link rel="stylesheet" href="css/style.css">
+
+
 
 </head>
 <body>
@@ -67,24 +71,33 @@
     <!--HEADER END-->
     <main>
         <!--video-->
-        <section class="black-space" id="video-section">
-            <div class="video">
+        <section class="black-space" id="video">
 
-
-                <img class="slider-img img-responsive" src="video/fruskogorski-vinogradi.jpg" alt="Fruskogorski vinogradi">
-                <video autoplay loop poster="video/video-poster.jpg">
-                    <source src="video/fruskogorski-vinogradi.webm" type="video/webm">
-                    <source src="video/fruskogorski-vinogradi.mp4" type="video/mp4">
-                    <source src="video/fruskogorski-vinogradi.ogg" type="video/ogg">
-                    Your browser does not support the video tag.
-                </video>
-
-                <div class="text">
-                    <h1>Quet i Fruškać <br> vina sa Fruške gore.</h1>
-                    <h2>Fruškogorski vinogradi<br> na sunčanoj strani Dunava.</h2>
-                </div>
-
+            <div class="hero-video">
+                <h1>Quet i Fruškać<br>vina sa Fruške gore.</h1>
+                <h2>Fruškogorski vinogradi<br>na sunčanoj strani Dunava.</h2>
             </div>
+            <?php
+
+                $iPod    = stripos($_SERVER['HTTP_USER_AGENT'],"iPod");
+                $iPhone  = stripos($_SERVER['HTTP_USER_AGENT'],"iPhone");
+                $iPad    = stripos($_SERVER['HTTP_USER_AGENT'],"iPad");
+                $Android = stripos($_SERVER['HTTP_USER_AGENT'],"Android");
+                $webOS   = stripos($_SERVER['HTTP_USER_AGENT'],"webOS");
+
+            ?>
+
+            <?php if($Android || $webOS || $iPhone) : ?>
+            <!--<img class="slider-img img-responsive" src="video/fruskogorski-vinogradi.jpg" alt="Fruskogorski vinogradi">-->
+            <?php else : ?>
+            <video autoplay loop poster="video/video-poster.jpg">
+                <source src="video/fruskogorski-vinogradi.webm" type="video/webm">
+                <source src="video/fruskogorski-vinogradi.mp4" type="video/mp4">
+                <source src="video/fruskogorski-vinogradi.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+            <?php endif; ?>
+
         </section>
         <!-- video end-->
 

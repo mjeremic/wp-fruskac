@@ -77,7 +77,12 @@ $(function() {
                 }
             }
         }
-
+        if (navigator.userAgent.match(/(iPhone)/)) {
+            var iPhoneHeight = $(window).height();
+            $('body #content #video').css('height', iPhoneHeight);
+            $('body #content #video img').css('height', iPhoneHeight);
+            $('body #content #video').css('min-height', iPhoneHeight);
+        }
     });
 
     //map

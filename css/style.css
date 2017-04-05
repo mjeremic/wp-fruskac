@@ -336,16 +336,41 @@ section.map {
     section.map #map {
       height: 350px; } }
 
-section#video-section {
-  height: 720px; }
-
-section div.video {
+section#video {
+  width: 100%;
   position: relative;
   background-size: cover;
   background-position: 50% 50%;
   height: 100vh; }
-  section div.video video {
-    webkit-transform: translateX(-50%) translateY(-50%);
+  section#video .hero-video {
+    text-align: left;
+    position: absolute;
+    bottom: 100px;
+    left: 60px;
+    right: 20px; }
+    section#video .hero-video h1 {
+      font-family: "Roboto Slab", serif;
+      font-weight: 400;
+      letter-spacing: 2.5px;
+      color: #fff;
+      padding-right: 0px;
+      font-size: 50px;
+      line-height: 68px; }
+    section#video .hero-video h2 {
+      font-family: "Roboto Slab", serif;
+      font-size: 36px;
+      letter-spacing: 5.8px;
+      color: #fff;
+      text-transform: none;
+      font-weight: 300;
+      padding-right: 50px;
+      margin-top: 15px;
+      line-height: 48px;
+      margin-bottom: 0; }
+  section#video .slider-img {
+    width: 100%; }
+  section#video video {
+    -webkit-transform: translateX(-50%) translateY(-50%);
     -moz-transform: translateX(-50%) translateY(-50%);
     -ms-transform: translateX(-50%) translateY(-50%);
     -o-transform: translateX(-50%) translateY(-50%);
@@ -357,34 +382,7 @@ section div.video {
     min-height: 100%;
     width: auto;
     height: auto;
-    z-index: -100;
-    display: inline-block;
-    vertical-align: baseline; }
-  section div.video .text {
-    text-align: left;
-    position: absolute;
-    bottom: 100px;
-    left: 60px;
-    right: 20px; }
-    section div.video .text h1 {
-      font-family: "Roboto Slab", serif;
-      font-weight: 400;
-      letter-spacing: 2.5px;
-      color: #fff;
-      padding-right: 0px;
-      font-size: 50px;
-      line-height: 68px; }
-    section div.video .text h2 {
-      font-family: "Roboto Slab", serif;
-      font-size: 36px;
-      letter-spacing: 5.8px;
-      color: #fff;
-      text-transform: none;
-      font-weight: 300;
-      padding-right: 50px;
-      margin-top: 15px;
-      line-height: 48px;
-      margin-bottom: 0; }
+    z-index: -100; }
 
 section div img.full-img {
   width: 100%; }
