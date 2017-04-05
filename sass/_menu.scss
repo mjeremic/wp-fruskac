@@ -4,6 +4,10 @@ header{
     height: 170px;
     img{
       float: right;
+      &.mob-logo{
+        display: none;
+      }
+
     }
     .col-sm-6{
       margin-top: 28px;
@@ -25,61 +29,228 @@ header{
       margin-top: 2px;
     }
   }
-  div.primary-menu{
-    background-color: $whitecolor;
-    ul{
-      li{
-        float:left;
-        list-style: none;
-        width: calc( 100% / 6);
-        padding: 10px 15px;
-        text-align: center;
-        a{
-          text-transform: uppercase;
-          color: $black-color;
-          font-size: 13px;
-          font-family: $roboto-font;
-          letter-spacing: 3px;
+  .menus{
+    display: block;
+    div.primary-menu{
+      background-color: $whitecolor;
+      ul{
+        padding: 0;
+        li{
+          float:left;
+          list-style: none;
+          width: calc( 100% / 6);
+          padding: 10px 15px;
+          text-align: center;
+          a{
+            text-transform: uppercase;
+            color: $black-color;
+            font-size: 13px;
+            font-family: $roboto-font;
+            letter-spacing: 3px;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+    div.language{
+      background-color: $dark-grey;
+      ul{
+        width: 100%;
+        display: block;
+        padding: 0;
+        margin: 0;
+        margin-left: -10px;
+        padding-left: 66px;
+        li{
+          float:left;
+          list-style: none;
+          padding-top: 10px;
+          padding-bottom: 10px;
+
+          a{
+            color:$whitecolor;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 13px;
+            font-family: $roboto-font;
+            letter-spacing: 3px;
+            margin: 0 6px;
+            &::after{
+              content: " / ";
+              color: $grey;
+              font-weight: 100;
+            }
+
+          }
+          &:last-child{
+            a::after{
+              content: "";
+            }
+          }
         }
       }
     }
   }
-  div.language{
-    background-color: $dark-grey;
-    ul{
-      width: 100%;
-      display: block;
-      padding: 0;
-      margin: 0;
-      margin-left: -10px;
-      padding-left: 66px;
-      li{
-        float:left;
-        list-style: none;
-        padding-top: 10px;
-        padding-bottom: 10px;
 
-        a{
-          color:$whitecolor;
-          text-decoration: none;
-          text-transform: uppercase;
-          font-size: 13px;
-          font-family: $roboto-font;
-          letter-spacing: 3px;
-          margin: 0 6px;
-          &::after{
-            content: " / ";
-            color: $grey;
-            font-weight: 100;
-          }
-
+  &.scroll-down{
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    div.logo{
+      height:0;
+      div.logo-img{
+        width: 100%;
+        position: absolute;
+        img{
+          position: absolute;
+          left: calc(50% - 40px);
+          width: 40px;
+          top: -18px;
         }
-        &:last-child{
-          a::after{
-            content: "";
+      }
+      div.logo-title{
+        display: none;
+      }
+    }
+
+    div.primary-menu{
+      background-color: $dark-grey;
+      ul{
+        li{
+          width: calc( 100% / 7);
+          padding: 32px 10px;
+          &:nth-child(4){
+            margin-left: calc( 100% / 7) ;
+          }
+          a{
+            color: $whitecolor;
+            font-size: 11px;
           }
         }
       }
     }
+    div.language{
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  header{
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    div.logo {
+      height: 78px;
+      //position: fixed;
+      .logo-img{
+        width: 100%;
+        margin-top: 5px;
+        img {
+          float: none;
+          height: 70px !important;
+          &.mob-logo {
+            display: block;
+            margin: 0 auto;
+          }
+          &.desc-logo{
+            display: none;
+          }
+      }
+        .nav-icon{
+          cursor: pointer;
+          position: fixed;
+          top: 28px;
+          right: calc(100% / 12 / 2);
+          z-index: 99;
+          height: 20px;
+          padding-top: 7px;
+          .m-hamburger{
+            border-bottom: 2px solid $whitecolor;
+            border-top:2px solid $whitecolor;
+            border-radius: 10px;
+            width: 40px;
+            padding: 0;
+            -webkit-transition: all 0.3s ease-out;
+            -moz-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
+            &::after{
+              content: " ";
+              background-color: $whitecolor;
+              border-radius: 10px;
+              width: 40px;
+              height: 4px;
+              position: absolute;
+              top: 17px;
+              left: 0;
+              -webkit-transition: all 0.3s ease-out;
+              -moz-transition: all 0.3s ease-out;
+              transition: all 0.3s ease-out;
+            }
+            &::before{
+              content: " ";
+              background-color: $whitecolor;
+              border-radius: 10px;
+              width: 40px;
+              height: 4px;
+              position: absolute;
+              top: -3px;
+              left: 0;
+              -webkit-transition: all 0.3s ease-out;
+              -moz-transition: all 0.3s ease-out;
+              transition: all 0.3s ease-out;
+            }
+          }
+          .m-clicked.m-hamburger{
+            border-color:transparent;
+          }
+          .m-clicked.m-hamburger::after, .m-clicked.m-hamburger::before{
+            top:7px!important;
+            background-color: $whitecolor;
+          }
+          .m-clicked.m-hamburger::after{
+            -webkit-transform: rotate(-45deg);
+            -moz-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+            -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+          }
+          .m-clicked.m-hamburger::before{
+            -webkit-transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+          }
+
+        }
+    }
+      .logo-title{
+        display: none;
+      }
+  }
+    .menus{
+      display: none;
+      div.primary-menu{
+        background-color: $dark-grey;
+        border-top: 1px solid $grey;
+        ul{
+          padding:0;
+          li{
+            float:none;
+            width: auto;
+            a{
+              color: $whitecolor;
+              font-size: 11px;
+            }
+          }
+        }
+      }
+      div.language ul{
+        padding-left: calc(50% - 80px);
+      }
+    }
+
+
   }
 }

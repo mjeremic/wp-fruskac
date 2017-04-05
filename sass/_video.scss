@@ -1,0 +1,56 @@
+section{
+  &#video-section{
+    height:720px;
+  }
+  div.video{
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100vh;
+    video{
+      webkit-transform: translateX(-50%) translateY(-50%);
+      -moz-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+      -o-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -100;
+      display: inline-block;
+      vertical-align: baseline;
+    }
+    .text{
+      text-align: left;
+      position: absolute;
+      bottom: 100px;
+      left: 60px;
+      right: 20px;
+      h1{
+        font-family: $robotoslab-font;
+        font-weight: 400;
+        letter-spacing: 2.5px;
+        color: $whitecolor;
+        padding-right: 0px;
+        font-size: 50px;
+        line-height: 68px;
+      }
+      h2{
+        font-family: $robotoslab-font;
+        font-size: 36px;
+        letter-spacing: 5.8px;
+        color: $whitecolor;
+        text-transform: none;
+        font-weight: 300;
+        padding-right: 50px;
+        margin-top: 15px;
+        line-height: 48px;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
