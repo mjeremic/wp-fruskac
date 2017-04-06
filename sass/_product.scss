@@ -96,6 +96,49 @@
           }
         }
       }
+
+    }
+  }
+  &.four-pr{
+    padding: 0 15px;
+    @media (max-width:630px){
+      margin-bottom: -5px !important;
+    }
+    .details {
+      height: 255px;
+    }
+    .vine-img a {
+      margin-left: -10px;
+      //padding: 0 0 0 10px;
+      img{
+        height: 330px ;
+        bottom: 140px ;
+      }
+    }
+    .vine-info{
+      padding: 18px;
+      line-height: 29px;
+      padding-left: 0;
+      span{
+        font-size: 20px;
+        &.pr-type{
+          font-size: 15px;
+          margin-top: 3px;
+          line-height: 20px;
+        }
+        &.pr-q{
+          font-size: 15px ;
+          padding-top: 1px ;
+        }
+      }
+      a{
+        right: 10px ;
+        img{
+          height: 40px ;
+          width: auto ;
+
+        }
+      }
     }
   }
 }

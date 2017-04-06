@@ -404,7 +404,8 @@ section#video {
 #quet {
   background: url(../img/glass.jpeg);
   background-repeat: no-repeat;
-  background-position: left center; }
+  background-position: left center;
+  padding-bottom: 100px; }
   #quet .product-one {
     padding: 0 25px; }
     @media (max-width: 768px) {
@@ -492,6 +493,36 @@ section#video {
                 height: 40px; } }
           #quet .product-one .details .vine-info a:hover img {
             opacity: 1; }
+    #quet .product-one.four-pr {
+      padding: 0 15px; }
+      @media (max-width: 630px) {
+        #quet .product-one.four-pr {
+          margin-bottom: -5px !important; } }
+      #quet .product-one.four-pr .details {
+        height: 255px; }
+      #quet .product-one.four-pr .vine-img a {
+        margin-left: -10px; }
+        #quet .product-one.four-pr .vine-img a img {
+          height: 330px;
+          bottom: 140px; }
+      #quet .product-one.four-pr .vine-info {
+        padding: 18px;
+        line-height: 29px;
+        padding-left: 0; }
+        #quet .product-one.four-pr .vine-info span {
+          font-size: 20px; }
+          #quet .product-one.four-pr .vine-info span.pr-type {
+            font-size: 15px;
+            margin-top: 3px;
+            line-height: 20px; }
+          #quet .product-one.four-pr .vine-info span.pr-q {
+            font-size: 15px;
+            padding-top: 1px; }
+        #quet .product-one.four-pr .vine-info a {
+          right: 10px; }
+          #quet .product-one.four-pr .vine-info a img {
+            height: 40px;
+            width: auto; }
   @media (max-width: 1200px) {
     #quet {
       padding-top: 50px; } }
@@ -500,6 +531,196 @@ section#video {
       background-attachment: fixed;
       background-size: cover !important;
       background-position: left center; } }
+
+#single-product {
+  padding-top: 50px;
+  background: url(../img/pologa-quet.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right bottom;
+  padding-bottom: 100px; }
+  @media (max-width: 1200px) {
+    #single-product {
+      padding-top: 100px; } }
+  @media (max-width: 1024px) {
+    #single-product {
+      background-attachment: fixed;
+      background-position: left center; } }
+  #single-product .product-details img {
+    width: 100%; }
+  #single-product .product-details .details-featured {
+    height: 914px;
+    background-color: #d8dee9;
+    font-family: "Cantata One", serif;
+    position: relative; }
+    @media (max-width: 1200px) {
+      #single-product .product-details .details-featured {
+        height: 494px;
+        margin-top: 22px;
+        padding-top: 30px; } }
+    #single-product .product-details .details-featured .details-wrap {
+      position: absolute;
+      top: 42%;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+      padding: 0 15px 0 15px;
+      padding-top: 125px;
+      font-family: "Cantata One", serif; }
+      #single-product .product-details .details-featured .details-wrap h1 {
+        margin-top: -15px;
+        font-family: "Cantata One", serif;
+        font-size: 28px;
+        font-weight: 700;
+        margin-top: -15px;
+        font-size: 28px;
+        letter-spacing: 1px;
+        line-height: 35px; }
+      #single-product .product-details .details-featured .details-wrap h2 {
+        font-size: 20px;
+        margin-top: 12px;
+        margin-bottom: 34px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        line-height: 20px; }
+      #single-product .product-details .details-featured .details-wrap p {
+        margin: 0 0 5px;
+        color: #000;
+        line-height: 25px;
+        font-size: 14px; }
+      #single-product .product-details .details-featured .details-wrap span {
+        font-weight: 700;
+        font-size: 20px;
+        margin-top: 80px;
+        display: block; }
+    #single-product .product-details .details-featured .social {
+      position: absolute;
+      bottom: 45px;
+      left: 0;
+      right: 0;
+      text-align: center;
+      padding: 12px 0; }
+      #single-product .product-details .details-featured .social a {
+        margin: 0 4px;
+        color: #000; }
+        #single-product .product-details .details-featured .social a i {
+          font-size: 30px; }
+  #single-product .product-one {
+    padding: 0 25px; }
+    @media (max-width: 768px) {
+      #single-product .product-one {
+        padding: 0 15px; } }
+    @media (max-width: 630px) {
+      #single-product .product-one {
+        width: 100%; } }
+    #single-product .product-one .details {
+      background-color: #d8dee9;
+      height: 330px; }
+      @media (max-width: 450px) {
+        #single-product .product-one .details {
+          height: 210px; } }
+      #single-product .product-one .details .vine-img {
+        padding: 0 0 0 10px; }
+        #single-product .product-one .details .vine-img a {
+          display: block; }
+          #single-product .product-one .details .vine-img a img {
+            position: relative;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            bottom: 180px;
+            height: 430px;
+            padding-right: 0;
+            object-fit: scale-down;
+            cursor: pointer; }
+            @media (max-width: 450px) {
+              #single-product .product-one .details .vine-img a img {
+                height: 240px;
+                bottom: 70px; } }
+      #single-product .product-one .details .vine-info {
+        display: inline-block;
+        padding: 34px 10px 0 17px;
+        position: relative;
+        vertical-align: top;
+        padding-top: 30px;
+        height: inherit; }
+        @media (max-width: 1200px) {
+          #single-product .product-one .details .vine-info {
+            padding: 30px 10px 0 10px; } }
+        #single-product .product-one .details .vine-info span {
+          font-size: 26px;
+          padding-bottom: 12px;
+          letter-spacing: 1px;
+          display: block;
+          color: #000;
+          font-family: "Cantata One", serif;
+          font-weight: 400; }
+          @media (max-width: 1200px) {
+            #single-product .product-one .details .vine-info span {
+              font-size: 22px; } }
+          @media (max-width: 450px) {
+            #single-product .product-one .details .vine-info span {
+              font-size: 20px; } }
+          #single-product .product-one .details .vine-info span.pr-type {
+            font-size: 19px;
+            letter-spacing: 1px; }
+            @media (max-width: 450px) {
+              #single-product .product-one .details .vine-info span.pr-type {
+                font-size: 15px; } }
+          #single-product .product-one .details .vine-info span.pr-q {
+            font-size: 20px;
+            padding-top: 18px; }
+            @media (max-width: 450px) {
+              #single-product .product-one .details .vine-info span.pr-q {
+                font-size: 15px;
+                padding-top: 12px; } }
+        #single-product .product-one .details .vine-info a {
+          order: none !important;
+          position: absolute !important;
+          bottom: 10px;
+          width: auto;
+          right: 10px;
+          padding: 0 !important;
+          color: transparent !important;
+          left: auto;
+          line-height: 0; }
+          #single-product .product-one .details .vine-info a img {
+            height: 50px;
+            opacity: 0.5; }
+            @media (max-width: 1200px) {
+              #single-product .product-one .details .vine-info a img {
+                height: 40px; } }
+          #single-product .product-one .details .vine-info a:hover img {
+            opacity: 1; }
+    #single-product .product-one.four-pr {
+      padding: 0 15px; }
+      @media (max-width: 630px) {
+        #single-product .product-one.four-pr {
+          margin-bottom: -5px !important; } }
+      #single-product .product-one.four-pr .details {
+        height: 255px; }
+      #single-product .product-one.four-pr .vine-img a {
+        margin-left: -10px; }
+        #single-product .product-one.four-pr .vine-img a img {
+          height: 330px;
+          bottom: 140px; }
+      #single-product .product-one.four-pr .vine-info {
+        padding: 18px;
+        line-height: 29px;
+        padding-left: 0; }
+        #single-product .product-one.four-pr .vine-info span {
+          font-size: 20px; }
+          #single-product .product-one.four-pr .vine-info span.pr-type {
+            font-size: 15px;
+            margin-top: 3px;
+            line-height: 20px; }
+          #single-product .product-one.four-pr .vine-info span.pr-q {
+            font-size: 15px;
+            padding-top: 1px; }
+        #single-product .product-one.four-pr .vine-info a {
+          right: 10px; }
+          #single-product .product-one.four-pr .vine-info a img {
+            height: 40px;
+            width: auto; }
 
 section div img.full-img {
   width: 100%; }
