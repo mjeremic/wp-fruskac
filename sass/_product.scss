@@ -1,0 +1,101 @@
+.product-one{
+  padding: 0 25px;
+  @media (max-width: 768px){
+    padding: 0 15px;
+  }
+  @media (max-width: 630px){
+    width:100%;
+  }
+  .details{
+    background-color: $background-product-light;
+    height: 330px;
+    @media (max-width: 450px){
+      height: 210px;
+    }
+    .vine-img{
+      padding: 0 0 0 10px;
+      a{
+        display: block;
+        img{
+          position: relative;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          bottom: 180px;
+          height: 430px;
+          padding-right: 0;
+          object-fit: scale-down;
+          cursor: pointer;
+          @media (max-width: 450px){
+            height: 240px;
+            bottom: 70px;
+          }
+        }
+      }
+    }
+    .vine-info{
+      display: inline-block;
+      padding: 34px 10px 0 17px;
+      position: relative;
+      vertical-align: top;
+      padding-top: 30px;
+      height: inherit;
+      @media (max-width: 1200px){
+        padding: 30px 10px 0 10px;
+      }
+      span{
+        font-size: 26px;
+        padding-bottom: 12px;
+        letter-spacing: 1px;
+        display: block;
+        color: $black-color;
+        font-family: $cantana-font;
+        font-weight: 400;
+        @media (max-width: 1200px){
+          font-size: 22px;
+        }
+        @media (max-width: 450px){
+          font-size: 20px;
+        }
+        &.pr-type{
+          font-size: 19px;
+          letter-spacing: 1px;
+          @media (max-width: 450px) {
+            font-size: 15px;
+          }
+        }
+        &.pr-q{
+          font-size: 20px;
+          padding-top: 18px;
+          @media (max-width: 450px) {
+            font-size: 15px;
+            padding-top: 12px;
+          }
+        }
+      }
+      a{
+        order: none !important;
+        position: absolute !important;
+        bottom: 10px;
+        width: auto;
+        right: 10px;
+        padding: 0 !important;
+        color: transparent !important;
+        left: auto;
+        line-height: 0;
+        img{
+          height: 50px;
+          opacity: 0.5;
+          @media (max-width: 1200px) {
+            height: 40px;
+          }
+        }
+        &:hover{
+          img{
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}

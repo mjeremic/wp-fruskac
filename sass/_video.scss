@@ -1,7 +1,8 @@
-section{
-  &#video{
-    //height:720px;
+section#video{
     width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
     height: 100vh;
     .hero-video{
       text-align: left;
@@ -17,6 +18,22 @@ section{
         padding-right: 0px;
         font-size: 50px;
         line-height: 68px;
+        @media (max-width:1023px){
+          font-size: 40px;
+          line-height: 53px;
+          padding-right: 0;
+        }
+        @media (max-width: 590px){
+          margin-top: 50px;
+          font-size: 22px;
+          line-height: 28px;
+        }
+        @media (max-width: 376px){
+          top: 50%;
+          font-size: 18px;
+          line-height: 21px;
+          letter-spacing: 2.5px;
+        }
       }
       h2{
         font-family: $robotoslab-font;
@@ -29,16 +46,30 @@ section{
         margin-top: 15px;
         line-height: 48px;
         margin-bottom: 0;
+        @media (max-width: 1023px){
+          font-size: 23px;
+          line-height: 36px;
+        }
+        @media (max-width: 590px){
+          font-size: 19px;
+          line-height: 1.2;
+          margin-top: 5px;
+          letter-spacing: 2px;
+        }
+        @media (max-width: 376px){
+          font-size: 15px;
+        }
       }
     }
     .slider-img{
       width: 100%;
     }
     video{
-      width:100%;
+      width:100vw;
 
     }
   }
+
   //div.video{
   //  position: relative;
   //  background-size: cover;
@@ -63,4 +94,3 @@ section{
   //  }
   //
   //}
-}

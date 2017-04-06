@@ -1,0 +1,14 @@
+#quet{
+  background: url(../img/glass.jpeg);
+  background-repeat: no-repeat;
+  background-position: left center;
+  @import 'product';
+  @media (max-width:1200px){
+    padding-top: 50px;
+  }
+  @media (max-width:1024px){
+    background-attachment: fixed;
+    background-size: cover !important;
+    background-position: left center;
+  }
+}

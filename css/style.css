@@ -356,6 +356,22 @@ section#video {
       padding-right: 0px;
       font-size: 50px;
       line-height: 68px; }
+      @media (max-width: 1023px) {
+        section#video .hero-video h1 {
+          font-size: 40px;
+          line-height: 53px;
+          padding-right: 0; } }
+      @media (max-width: 590px) {
+        section#video .hero-video h1 {
+          margin-top: 50px;
+          font-size: 22px;
+          line-height: 28px; } }
+      @media (max-width: 376px) {
+        section#video .hero-video h1 {
+          top: 50%;
+          font-size: 18px;
+          line-height: 21px;
+          letter-spacing: 2.5px; } }
     section#video .hero-video h2 {
       font-family: "Roboto Slab", serif;
       font-size: 36px;
@@ -367,29 +383,163 @@ section#video {
       margin-top: 15px;
       line-height: 48px;
       margin-bottom: 0; }
+      @media (max-width: 1023px) {
+        section#video .hero-video h2 {
+          font-size: 23px;
+          line-height: 36px; } }
+      @media (max-width: 590px) {
+        section#video .hero-video h2 {
+          font-size: 19px;
+          line-height: 1.2;
+          margin-top: 5px;
+          letter-spacing: 2px; } }
+      @media (max-width: 376px) {
+        section#video .hero-video h2 {
+          font-size: 15px; } }
   section#video .slider-img {
     width: 100%; }
   section#video video {
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -o-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100; }
+    width: 100vw; }
+
+#quet {
+  background: url(../img/glass.jpeg);
+  background-repeat: no-repeat;
+  background-position: left center; }
+  #quet .product-one {
+    padding: 0 25px; }
+    @media (max-width: 768px) {
+      #quet .product-one {
+        padding: 0 15px; } }
+    @media (max-width: 630px) {
+      #quet .product-one {
+        width: 100%; } }
+    #quet .product-one .details {
+      background-color: #d8dee9;
+      height: 330px; }
+      @media (max-width: 450px) {
+        #quet .product-one .details {
+          height: 210px; } }
+      #quet .product-one .details .vine-img {
+        padding: 0 0 0 10px; }
+        #quet .product-one .details .vine-img a {
+          display: block; }
+          #quet .product-one .details .vine-img a img {
+            position: relative;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            bottom: 180px;
+            height: 430px;
+            padding-right: 0;
+            object-fit: scale-down;
+            cursor: pointer; }
+            @media (max-width: 450px) {
+              #quet .product-one .details .vine-img a img {
+                height: 240px;
+                bottom: 70px; } }
+      #quet .product-one .details .vine-info {
+        display: inline-block;
+        padding: 34px 10px 0 17px;
+        position: relative;
+        vertical-align: top;
+        padding-top: 30px;
+        height: inherit; }
+        @media (max-width: 1200px) {
+          #quet .product-one .details .vine-info {
+            padding: 30px 10px 0 10px; } }
+        #quet .product-one .details .vine-info span {
+          font-size: 26px;
+          padding-bottom: 12px;
+          letter-spacing: 1px;
+          display: block;
+          color: #000;
+          font-family: "Cantata One", serif;
+          font-weight: 400; }
+          @media (max-width: 1200px) {
+            #quet .product-one .details .vine-info span {
+              font-size: 22px; } }
+          @media (max-width: 450px) {
+            #quet .product-one .details .vine-info span {
+              font-size: 20px; } }
+          #quet .product-one .details .vine-info span.pr-type {
+            font-size: 19px;
+            letter-spacing: 1px; }
+            @media (max-width: 450px) {
+              #quet .product-one .details .vine-info span.pr-type {
+                font-size: 15px; } }
+          #quet .product-one .details .vine-info span.pr-q {
+            font-size: 20px;
+            padding-top: 18px; }
+            @media (max-width: 450px) {
+              #quet .product-one .details .vine-info span.pr-q {
+                font-size: 15px;
+                padding-top: 12px; } }
+        #quet .product-one .details .vine-info a {
+          order: none !important;
+          position: absolute !important;
+          bottom: 10px;
+          width: auto;
+          right: 10px;
+          padding: 0 !important;
+          color: transparent !important;
+          left: auto;
+          line-height: 0; }
+          #quet .product-one .details .vine-info a img {
+            height: 50px;
+            opacity: 0.5; }
+            @media (max-width: 1200px) {
+              #quet .product-one .details .vine-info a img {
+                height: 40px; } }
+          #quet .product-one .details .vine-info a:hover img {
+            opacity: 1; }
+  @media (max-width: 1200px) {
+    #quet {
+      padding-top: 50px; } }
+  @media (max-width: 1024px) {
+    #quet {
+      background-attachment: fixed;
+      background-size: cover !important;
+      background-position: left center; } }
 
 section div img.full-img {
   width: 100%; }
 
-section.black-space {
+section.black-space-top {
+  padding-top: 55px;
+  background-color: #000; }
+  @media (max-width: 767px) {
+    section.black-space-top {
+      padding-top: 30px; } }
+
+section.black-space-bottom {
   padding-bottom: 55px;
   background-color: #000; }
   @media (max-width: 767px) {
-    section.black-space {
+    section.black-space-bottom {
       padding-bottom: 30px; } }
+
+.center-title {
+  width: 50%;
+  margin: auto;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 19px;
+  text-align: left;
+  letter-spacing: 1px;
+  margin-bottom: 25px; }
+  @media (max-width: 767px) {
+    .center-title {
+      font-size: 16px;
+      width: 80%; } }
+
+img.template-logo {
+  width: 170px;
+  margin: 0 auto;
+  display: block;
+  padding-top: 60px;
+  padding-bottom: 60px; }
+
+.offset {
+  height: 198px; }
+  @media (max-width: 450px) {
+    .offset {
+      height: 80px; } }
