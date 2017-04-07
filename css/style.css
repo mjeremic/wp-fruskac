@@ -523,9 +523,6 @@ section#video {
           #quet .product-one.four-pr .vine-info a img {
             height: 40px;
             width: auto; }
-  @media (max-width: 1200px) {
-    #quet {
-      padding-top: 50px; } }
   @media (max-width: 1024px) {
     #quet {
       background-attachment: fixed;
@@ -539,9 +536,6 @@ section#video {
   background-size: cover;
   background-position: right bottom;
   padding-bottom: 100px; }
-  @media (max-width: 1200px) {
-    #single-product {
-      padding-top: 100px; } }
   @media (max-width: 1024px) {
     #single-product {
       background-attachment: fixed;
@@ -604,6 +598,11 @@ section#video {
         color: #000; }
         #single-product .product-details .details-featured .social a i {
           font-size: 30px; }
+      #single-product .product-details .details-featured .social.blog {
+        bottom: inherit;
+        text-align: inherit; }
+        #single-product .product-details .details-featured .social.blog a i {
+          font-size: 3em; }
   #single-product .product-one {
     padding: 0 25px; }
     @media (max-width: 768px) {
@@ -764,12 +763,45 @@ section#video {
 .cover i {
   color: #3f5540; }
 
+.blog-page {
+  padding-bottom: 100px; }
+  .blog-page h1 {
+    font-family: "Cantata One", serif;
+    font-weight: 400;
+    font-size: 37px;
+    letter-spacing: 1.5px;
+    padding: 30px 0px 0px 0px;
+    margin-bottom: 0px; }
+  .blog-page span.date {
+    color: #7a7a7a;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0px; }
+  .blog-page .news-single-txt {
+    letter-spacing: 1.6px;
+    padding-top: 20px;
+    padding-bottom: 60px; }
+  .blog-page .social {
+    position: absolute;
+    bottom: 45px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 12px 0; }
+    .blog-page .social a {
+      margin: 0 4px;
+      color: #000; }
+      .blog-page .social a i {
+        font-size: 30px; }
+    .blog-page .social.blog {
+      bottom: inherit;
+      text-align: inherit; }
+      .blog-page .social.blog a i {
+        font-size: 3em; }
+
 #contact img {
   width: 100%; }
-
-@media (max-width: 1200px) {
-  #contact {
-    padding-top: 78px; } }
 
 #contact p {
   margin: 0;
@@ -797,6 +829,15 @@ section#video {
   margin-bottom: 143px;
   width: 100%;
   height: auto; }
+
+hr {
+  border: solid 1px #726f6f;
+  padding-bottom: 0;
+  margin-bottom: 5px; }
+
+@media (max-width: 1200px) {
+  main {
+    padding-top: 78px; } }
 
 section div img.full-img {
   width: 100%; }

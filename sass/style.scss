@@ -6,13 +6,13 @@ $dark-grey:#252121;
 $background-product-light: #d8dee9;
 $color-beige: #bdb796;
 $color-green:#3f5540;
+$grey-text: #7a7a7a;
 
 $fira-font:'Fira Sans', sans-serif;
 $cantana-font:"Cantata One", serif;
 $open-font:'Open Sans';
 $robotoslab-font: 'Roboto Slab', serif;
 $roboto-font:'Roboto', sans-serif;
-
 
 @import 'menu';
 @import 'title';
@@ -22,7 +22,18 @@ $roboto-font:'Roboto', sans-serif;
 @import 'quet';
 @import 'single-pr';
 @import 'vinogradi';
+@import 'blog-page';
 @import 'us-contact';
+hr{
+  border: solid 1px #726f6f;
+  padding-bottom: 0;
+  margin-bottom: 5px;
+}
+main{
+  @media (max-width: 1200px){
+    padding-top: 78px;
+  }
+}
 
 section{
   div{

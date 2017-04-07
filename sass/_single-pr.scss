@@ -5,9 +5,9 @@
   background-size: cover;
   background-position: right bottom;
   padding-bottom: 100px;
-  @media (max-width: 1200px) {
-    padding-top: 100px;
-  }
+  //@media (max-width: 1200px) {
+  //  padding-top: 100px;
+  //}
   @media (max-width: 1024px){
     background-attachment: fixed;
     background-position: left center;
@@ -65,21 +65,7 @@
           display: block;
         }
       }
-      .social {
-        position: absolute;
-        bottom: 45px;
-        left: 0;
-        right: 0;
-        text-align: center;
-        padding: 12px 0;
-        a {
-          margin: 0 4px;
-          color: $black-color;
-          i {
-            font-size: 30px;
-          }
-        }
-      }
+      @import 'socialicons';
     }
   }
   @import 'product';
