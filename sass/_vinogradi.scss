@@ -1,0 +1,44 @@
+.cover-wrap{
+  left:0;
+  right: 0;
+  margin: 0 auto;
+  position: absolute;
+  top: 28%;
+}
+#flat{
+  width: 100%;
+}
+.flat-wrap{
+  width: 100%;
+  height: calc(100vh - 318px);
+  overflow: hidden;
+  position: relative;
+  @media (max-width: 1024px){
+    height: calc(100vh);
+  }
+  @media (max-width:450px) {
+    height: calc(100vh - 78px);
+  }
+}
+.cover{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: $color-beige;
+  z-index: 99999;
+}
+.cover i, .cover p{
+  display: block;
+  left:0;
+  right: 0;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+}
+.cover p {
+}
+.cover i {
+  color: $color-green;
+}

@@ -4,6 +4,8 @@ $light-grey: #d8dee9;
 $grey: #666;
 $dark-grey:#252121;
 $background-product-light: #d8dee9;
+$color-beige: #bdb796;
+$color-green:#3f5540;
 
 $fira-font:'Fira Sans', sans-serif;
 $cantana-font:"Cantata One", serif;
@@ -19,6 +21,8 @@ $roboto-font:'Roboto', sans-serif;
 @import 'video';
 @import 'quet';
 @import 'single-pr';
+@import 'vinogradi';
+@import 'us-contact';
 
 section{
   div{
@@ -71,4 +75,7 @@ img.template-logo{
   }
 }
 
-//single
+
+
+
+
