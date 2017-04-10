@@ -4,12 +4,14 @@ section#video{
     background-size: cover;
     background-position: 50% 50%;
     height: 100vh;
+    overflow: hidden;
     .hero-video{
       text-align: left;
       position: absolute;
       bottom: 100px;
       left: 60px;
       right: 20px;
+      z-index: 9999;
       h1{
         font-family: $robotoslab-font;
         font-weight: 400;
@@ -65,7 +67,19 @@ section#video{
       width: 100%;
     }
     video{
-      width:100vw;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      -moz-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+      -o-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -100;
 
     }
   }

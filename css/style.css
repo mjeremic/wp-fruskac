@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Book Antiqua";
+  src: url("../../fonts/BKANT.TTF") format("TTF"); }
+
 header div.logo {
   background-color: #252121;
   height: 170px; }
@@ -8,7 +12,8 @@ header div.logo {
   header div.logo .col-sm-6 {
     margin-top: 28px; }
   header div.logo h1, header div.logo h2 {
-    color: #fff; }
+    color: #fff;
+    font-family: "Book Antiqua"; }
   header div.logo h1 {
     font-size: 20px;
     letter-spacing: 5.8px;
@@ -341,13 +346,15 @@ section#video {
   position: relative;
   background-size: cover;
   background-position: 50% 50%;
-  height: 100vh; }
+  height: 100vh;
+  overflow: hidden; }
   section#video .hero-video {
     text-align: left;
     position: absolute;
     bottom: 100px;
     left: 60px;
-    right: 20px; }
+    right: 20px;
+    z-index: 9999; }
     section#video .hero-video h1 {
       font-family: "Roboto Slab", serif;
       font-weight: 400;
@@ -399,7 +406,19 @@ section#video {
   section#video .slider-img {
     width: 100%; }
   section#video video {
-    width: 100vw; }
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100; }
 
 #quet {
   background: url(../img/glass.jpeg);
@@ -523,6 +542,9 @@ section#video {
           #quet .product-one.four-pr .vine-info a img {
             height: 40px;
             width: auto; }
+  @media (max-width: 1200px) {
+    #quet {
+      padding-bottom: 0; } }
   @media (max-width: 1024px) {
     #quet {
       background-attachment: fixed;
@@ -803,14 +825,36 @@ section#video {
 #contact img {
   width: 100%; }
 
+#contact .txt {
+  padding-top: 60px;
+  padding-bottom: 200px;
+  text-align: justify;
+  overflow: hidden; }
+  #contact .txt hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #d8dee9; }
+  #contact .txt .col-md-12 p {
+    text-align: center; }
+  #contact .txt .col-md-6:first-child p {
+    text-align: left; }
+    @media (max-width: 1200px) {
+      #contact .txt .col-md-6:first-child p {
+        text-align: center; } }
+  #contact .txt .col-md-6:nth-child(2) p {
+    text-align: right; }
+    @media (max-width: 1200px) {
+      #contact .txt .col-md-6:nth-child(2) p {
+        text-align: center; } }
+
 #contact p {
   margin: 0;
   padding: 0;
   font-size: 16px;
   font-family: "Open Sans";
   color: #000;
-  letter-spacing: 0.92px;
-  padding-right: 0; }
+  letter-spacing: 0.92px; }
 
 #contact .txt-about {
   padding-top: 50px;
@@ -863,7 +907,8 @@ section.black-space-bottom {
   font-size: 19px;
   text-align: left;
   letter-spacing: 1px;
-  margin-bottom: 25px; }
+  margin-bottom: 25px;
+  font-family: "Book Antiqua"; }
   @media (max-width: 767px) {
     .center-title {
       font-size: 16px;
@@ -875,6 +920,9 @@ img.template-logo {
   display: block;
   padding-top: 60px;
   padding-bottom: 60px; }
+  @media (max-width: 1200px) {
+    img.template-logo {
+      padding-top: 25px; } }
 
 .offset {
   height: 198px; }

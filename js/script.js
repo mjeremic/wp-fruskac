@@ -20,7 +20,7 @@ $(function() {
         var p = window.location.pathname;
         var lastPathSegment = p.substr(p.lastIndexOf('/') + 1);
 
-        if (lastPathSegment == '' || lastPathSegment == 'index.php') {
+        if (lastPathSegment == '' || lastPathSegment == 'index.php' || lastPathSegment == 'index.html') {
 
             var offsetTop = -$(this).scrollTop();
             if ($(this).scrollTop() < 265 && width > 1200) {
@@ -57,7 +57,7 @@ $(function() {
                         $('header').addClass('scroll-down').css('top','-100px').animate({'top' : '0px'}, 800);
                         // $('body').css('padding-top','263px');
                         // $('.single').addClass('scroll-padding');
-                        $('div.language').css('display','none');
+                        $('div.language').css('display','block');
                         trigger = true;
                     }
                 } else {
@@ -156,6 +156,7 @@ $(function() {
 
             zoom_MAX: zoom_max,
             zoom_MIN: '-1',
+
 
             animation_SPEED: 0.1
         });
