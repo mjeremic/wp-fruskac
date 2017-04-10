@@ -5,8 +5,11 @@ section{
     position: absolute;
     top: 50%;
     left: 38%;
-    margin-top: -54px;
+    margin-top: -31px;
     text-align: left;
+    &.about-title{
+      margin-top: -53px;
+    }
     h3{
       font-family: $fira-font;
       color:$whitecolor;

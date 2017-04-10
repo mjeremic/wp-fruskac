@@ -12,4 +12,35 @@
     background-size: cover !important;
     background-position: left center;
   }
+  .center-title{
+    width: 50%;
+    margin: auto;
+    font-size: 19px;
+    text-align: left;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    font-family: "Book Antiqua";
+    @media (max-width: 767px){
+      font-size: 16px;
+      width: 80%;
+    }
+  }
+
+  img.template-logo{
+    width: 170px;
+    margin: 0 auto;
+    display: block;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    @media (max-width: 1200px){
+      padding-top: 25px;
+    }
+  }
+
+  .offset{
+    height: 198px;
+    @media (max-width: 450px){
+      height: 80px;
+    }
+  }
 }

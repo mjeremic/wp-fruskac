@@ -18,7 +18,7 @@
     }
     .details-featured {
       height: 914px;
-      background-color: $background-product-light;
+      background-color: $light-grey;
       font-family: $cantana-font;
       position: relative;
       @media (max-width: 1200px) {
@@ -69,5 +69,7 @@
     }
   }
   @import 'product';
-
+  .offset{
+    height: 198px;
+  }
 }

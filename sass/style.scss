@@ -3,20 +3,19 @@ $black-color:#000;
 $light-grey: #d8dee9;
 $grey: #666;
 $dark-grey:#252121;
-$background-product-light: #d8dee9;
 $color-beige: #bdb796;
 $color-green:#3f5540;
 $grey-text: #7a7a7a;
 
 $fira-font:'Fira Sans', sans-serif;
-$cantana-font:"Cantata One", serif;
+$cantana-font:'Cantata One', serif;
 $open-font:'Open Sans';
 $robotoslab-font: 'Roboto Slab', serif;
 $roboto-font:'Roboto', sans-serif;
 
 @font-face {
   font-family: "Book Antiqua";
-  src: url("../../fonts/BKANT.TTF") format("TTF")
+  src: url("../assets/fonts/BKANT.TTF") format("TTF");
 }
 
 @import 'menu';
@@ -64,39 +63,7 @@ section{
   }
 }
 
-//quet
-.center-title{
-  width: 50%;
-  margin: auto;
-  font-family: $fira-font;
-  font-size: 19px;
-  text-align: left;
-  letter-spacing: 1px;
-  margin-bottom: 25px;
-  font-family: "Book Antiqua";
-  @media (max-width: 767px){
-    font-size: 16px;
-    width: 80%;
-  }
-}
 
-img.template-logo{
-  width: 170px;
-  margin: 0 auto;
-  display: block;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  @media (max-width: 1200px){
-    padding-top: 25px;
-  }
-}
-
-.offset{
-  height: 198px;
-  @media (max-width: 450px){
-    height: 80px;
-  }
-}
 
 
 

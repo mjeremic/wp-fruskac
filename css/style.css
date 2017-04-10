@@ -1,25 +1,29 @@
 @font-face {
   font-family: "Book Antiqua";
-  src: url("../../fonts/BKANT.TTF") format("TTF"); }
+  src: url("../assets/fonts/BKANT.TTF") format("TTF"); }
 
 header div.logo {
   background-color: #252121;
-  height: 170px; }
+  height: 187px; }
   header div.logo img {
-    float: right; }
+    float: right;
+    margin-right: -23px; }
     header div.logo img.mob-logo {
       display: none; }
   header div.logo .col-sm-6 {
-    margin-top: 28px; }
+    margin-top: 47px;
+    padding: 0; }
   header div.logo h1, header div.logo h2 {
     color: #fff;
-    font-family: "Book Antiqua"; }
+    font-family: "Book Antiqua";
+    padding-left: 38px; }
   header div.logo h1 {
     font-size: 20px;
     letter-spacing: 5.8px;
     line-height: 20px;
     text-transform: uppercase;
-    padding-top: 20px; }
+    padding-top: 11px;
+    margin-bottom: 0; }
   header div.logo h2 {
     font-size: 14px;
     line-height: 23px;
@@ -36,7 +40,7 @@ header .menus {
         float: left;
         list-style: none;
         width: calc( 100% / 6);
-        padding: 10px 15px;
+        padding: 15px 15px;
         text-align: center; }
         header .menus div.primary-menu ul li a {
           text-transform: uppercase;
@@ -52,7 +56,7 @@ header .menus {
       display: block;
       padding: 0;
       margin: 0;
-      margin-left: -10px;
+      margin-left: -25px;
       padding-left: 66px; }
       header .menus div.language ul li {
         float: left;
@@ -66,7 +70,7 @@ header .menus {
           font-size: 13px;
           font-family: "Roboto", sans-serif;
           letter-spacing: 3px;
-          margin: 0 6px; }
+          margin: 0 4px; }
           header .menus div.language ul li a::after {
             content: " / ";
             color: #666;
@@ -204,8 +208,10 @@ section {
     position: absolute;
     top: 50%;
     left: 38%;
-    margin-top: -54px;
+    margin-top: -31px;
     text-align: left; }
+    section .title.about-title {
+      margin-top: -53px; }
     section .title h3 {
       font-family: "Fira Sans", sans-serif;
       color: #fff;
@@ -310,7 +316,8 @@ section.map {
       color: #fff;
       font-family: "Roboto", sans-serif;
       font-size: 13px;
-      letter-spacing: 3px; }
+      letter-spacing: 3px;
+      line-height: 20px; }
     section.map .map-contact .soc-icons {
       float: right; }
       section.map .map-contact .soc-icons li {
@@ -550,6 +557,32 @@ section#video {
       background-attachment: fixed;
       background-size: cover !important;
       background-position: left center; } }
+  #quet .center-title {
+    width: 50%;
+    margin: auto;
+    font-size: 19px;
+    text-align: left;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    font-family: "Book Antiqua"; }
+    @media (max-width: 767px) {
+      #quet .center-title {
+        font-size: 16px;
+        width: 80%; } }
+  #quet img.template-logo {
+    width: 170px;
+    margin: 0 auto;
+    display: block;
+    padding-top: 60px;
+    padding-bottom: 60px; }
+    @media (max-width: 1200px) {
+      #quet img.template-logo {
+        padding-top: 25px; } }
+  #quet .offset {
+    height: 198px; }
+    @media (max-width: 450px) {
+      #quet .offset {
+        height: 80px; } }
 
 #single-product {
   padding-top: 50px;
@@ -742,6 +775,8 @@ section#video {
           #single-product .product-one.four-pr .vine-info a img {
             height: 40px;
             width: auto; }
+  #single-product .offset {
+    height: 198px; }
 
 .cover-wrap {
   left: 0;
@@ -899,33 +934,3 @@ section.black-space-bottom {
   @media (max-width: 767px) {
     section.black-space-bottom {
       padding-bottom: 30px; } }
-
-.center-title {
-  width: 50%;
-  margin: auto;
-  font-family: "Fira Sans", sans-serif;
-  font-size: 19px;
-  text-align: left;
-  letter-spacing: 1px;
-  margin-bottom: 25px;
-  font-family: "Book Antiqua"; }
-  @media (max-width: 767px) {
-    .center-title {
-      font-size: 16px;
-      width: 80%; } }
-
-img.template-logo {
-  width: 170px;
-  margin: 0 auto;
-  display: block;
-  padding-top: 60px;
-  padding-bottom: 60px; }
-  @media (max-width: 1200px) {
-    img.template-logo {
-      padding-top: 25px; } }
-
-.offset {
-  height: 198px; }
-  @media (max-width: 450px) {
-    .offset {
-      height: 80px; } }
