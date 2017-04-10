@@ -91,7 +91,7 @@ header.scroll-down {
         position: absolute;
         left: calc(50% - 40px);
         width: 40px;
-        top: -18px; }
+        top: -37px; }
     header.scroll-down div.logo div.logo-title {
       display: none; }
   header.scroll-down div.primary-menu {
@@ -355,6 +355,9 @@ section#video {
   background-position: 50% 50%;
   height: 100vh;
   overflow: hidden; }
+  @media (max-width: 1228px) {
+    section#video {
+      height: 60vh; } }
   section#video .hero-video {
     text-align: left;
     position: absolute;
@@ -860,6 +863,10 @@ section#video {
 #contact img {
   width: 100%; }
 
+#contact img.cover-img {
+  min-height: 400px;
+  object-fit: cover; }
+
 #contact .txt {
   padding-top: 60px;
   padding-bottom: 200px;
@@ -895,9 +902,12 @@ section#video {
   padding-top: 50px;
   text-align: justify;
   overflow: hidden; }
+  @media (max-width: 1200px) {
+    #contact .txt-about {
+      padding-bottom: 150px; } }
 
 #contact .txt-img img:nth-child(1) {
-  margin-top: 250px;
+  margin-top: 205px;
   margin-bottom: 205px;
   float: right;
   width: 100%;

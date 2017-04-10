@@ -2,6 +2,10 @@
   img{
     width:100%;
   }
+  img.cover-img{
+    min-height: 400px;
+    object-fit: cover;
+  }
   .txt{
     padding-top: 60px;
     padding-bottom: 200px;
@@ -49,11 +53,14 @@
     padding-top: 50px;
     text-align: justify;
     overflow: hidden;
+    @media (max-width:1200px){
+      padding-bottom: 150px;
+    }
   }
   .txt-img{
     img{
       &:nth-child(1){
-        margin-top: 250px;
+        margin-top: 205px;
         margin-bottom: 205px;
         float: right;
         width: 100%;

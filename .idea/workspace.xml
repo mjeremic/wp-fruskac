@@ -3,15 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="8a795304-af53-45a0-99f9-1f3a74449350" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_map.scss" afterPath="$PROJECT_DIR$/sass/_map.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/o-nama.html" afterPath="$PROJECT_DIR$/o-nama.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_menu.scss" afterPath="$PROJECT_DIR$/sass/_menu.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_product.scss" afterPath="$PROJECT_DIR$/sass/_product.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_quet.scss" afterPath="$PROJECT_DIR$/sass/_quet.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_single-pr.scss" afterPath="$PROJECT_DIR$/sass/_single-pr.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_title.scss" afterPath="$PROJECT_DIR$/sass/_title.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/style.scss" afterPath="$PROJECT_DIR$/sass/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_us-contact.scss" afterPath="$PROJECT_DIR$/sass/_us-contact.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_video.scss" afterPath="$PROJECT_DIR$/sass/_video.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,17 +43,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_title.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/_title.scss">
+      <file leaf-file-name="_us-contact.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/_us-contact.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="460">
+              <caret line="56" column="28" lean-forward="false" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/style.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -86,31 +83,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_video.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_video.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/_video.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="66" column="18" lean-forward="false" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_menu.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/_menu.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="53" column="32" lean-forward="true" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_quet.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/_quet.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="44" column="3" lean-forward="true" selection-start-line="39" selection-start-column="2" selection-end-line="44" selection-end-column="3" />
+            <state relative-caret-position="120">
+              <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -119,8 +96,28 @@
       <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="84" column="26" lean-forward="false" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
+            <state relative-caret-position="228">
+              <caret line="74" column="37" lean-forward="true" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="o-nama.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/o-nama.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1890">
+              <caret line="126" column="16" lean-forward="true" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_menu.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/_menu.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="112" column="16" lean-forward="false" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -168,23 +165,23 @@
         <option value="$PROJECT_DIR$/sass/mapa-vinogradi.html" />
         <option value="$USER_HOME$/Downloads/fruvin.com - zvanicni/mapa-vinograda.html" />
         <option value="$PROJECT_DIR$/sass/_vinogradi.scss" />
-        <option value="$PROJECT_DIR$/o-nama.html" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/mapa-vinogradi.html" />
         <option value="$PROJECT_DIR$/js/novosti.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/contact.html" />
-        <option value="$PROJECT_DIR$/sass/_us-contact.scss" />
         <option value="$PROJECT_DIR$/js/script.js" />
-        <option value="$PROJECT_DIR$/sass/_video.scss" />
         <option value="$PROJECT_DIR$/sass/_quet.scss" />
         <option value="$PROJECT_DIR$/sass/style.scss" />
         <option value="$PROJECT_DIR$/sass/_single-pr.scss" />
-        <option value="$PROJECT_DIR$/sass/_menu.scss" />
         <option value="$PROJECT_DIR$/sass/_title.scss" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sass/_map.scss" />
         <option value="$PROJECT_DIR$/sass/_product.scss" />
+        <option value="$PROJECT_DIR$/sass/_menu.scss" />
+        <option value="$PROJECT_DIR$/contact.html" />
+        <option value="$PROJECT_DIR$/o-nama.html" />
+        <option value="$PROJECT_DIR$/sass/_us-contact.scss" />
+        <option value="$PROJECT_DIR$/sass/_video.scss" />
       </list>
     </option>
   </component>
@@ -205,8 +202,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="200" />
-    <option name="y" value="37" />
+    <option name="x" value="243" />
+    <option name="y" value="40" />
     <option name="width" value="1333" />
     <option name="height" value="829" />
   </component>
@@ -399,7 +396,7 @@
       <workItem from="1491462619556" duration="18098000" />
       <workItem from="1491548491453" duration="5588000" />
       <workItem from="1491566719412" duration="4173000" />
-      <workItem from="1491808446352" duration="10641000" />
+      <workItem from="1491808446352" duration="12159000" />
     </task>
     <task id="LOCAL-00001" summary="add video section">
       <created>1491398260652</created>
@@ -443,14 +440,21 @@
       <option name="project" value="LOCAL" />
       <updated>1491817523248</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="edit index page">
+      <created>1491832253382</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1491832253382</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41563000" />
+    <option name="totallyTimeSpent" value="43081000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="200" y="37" width="1333" height="829" extended-state="0" />
+    <frame x="243" y="40" width="1333" height="829" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -507,7 +511,8 @@
     <MESSAGE value="add mapa-vinogradi, contact and about-us page" />
     <MESSAGE value="add quet, single-product page, novosti" />
     <MESSAGE value="add font Book Antiqua and fix video section" />
-    <option name="LAST_COMMIT_MESSAGE" value="add font Book Antiqua and fix video section" />
+    <MESSAGE value="edit index page" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit index page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -628,6 +633,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1485">
           <caret line="99" column="0" lean-forward="true" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -731,13 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/o-nama.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="115" column="40" lean-forward="false" selection-start-line="115" selection-start-column="40" selection-end-line="115" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mapa-vinogradi.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1172">
@@ -791,22 +790,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_us-contact.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="84" column="26" lean-forward="false" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/_quet.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -839,22 +822,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_menu.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="53" column="32" lean-forward="true" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_video.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" column="18" lean-forward="false" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/_single-pr.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="489">
@@ -875,6 +842,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_menu.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="112" column="16" lean-forward="false" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="74" column="37" lean-forward="true" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/o-nama.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="126" column="16" lean-forward="true" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_us-contact.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="56" column="28" lean-forward="false" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_video.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
           <folding />
         </state>
       </provider>
