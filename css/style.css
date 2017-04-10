@@ -601,7 +601,7 @@ section#video {
   #single-product .product-details img {
     width: 100%; }
   #single-product .product-details .details-featured {
-    height: 914px;
+    height: 939px;
     background-color: #d8dee9;
     font-family: "Cantata One", serif;
     position: relative; }
@@ -779,7 +779,7 @@ section#video {
             height: 40px;
             width: auto; }
   #single-product .offset {
-    height: 198px; }
+    height: 170px; }
 
 .cover-wrap {
   left: 0;
