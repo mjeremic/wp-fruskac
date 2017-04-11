@@ -100,12 +100,15 @@
     }
   }
   &.four-pr{
-    padding: 0 15px;
+    padding: 0 30px;
     @media (max-width:630px){
       margin-bottom: -5px !important;
     }
     .details {
       height: 255px;
+      @media (max-width: 450px){
+        height: 210px;
+      }
     }
     .vine-img a {
       margin-left: -10px;
@@ -113,6 +116,11 @@
       img{
         height: 330px ;
         bottom: 140px ;
+        @media (max-width: 450px){
+          height: 240px;
+          bottom: 70px;
+        }
+
       }
     }
     .vine-info{

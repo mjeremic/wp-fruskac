@@ -15,6 +15,9 @@
   &.blog{
     bottom: inherit;
     text-align: inherit;
+    @media (max-width: 380px){
+      padding-left: 15px;
+    }
     a{
       i{
         font-size: 3em;

@@ -22,9 +22,17 @@
       font-family: $cantana-font;
       position: relative;
       @media (max-width: 1200px) {
-        height: 494px;
+        height: 694px;
         margin-top: 22px;
         padding-top: 30px;
+      }
+      @media (max-width: 450px){
+        height: 694px;
+        margin-top: 22px;
+        padding-top: 30px;
+      }
+      @media (max-width: 320px){
+        height: 869px;
       }
       .details-wrap {
         position: absolute;
@@ -63,6 +71,9 @@
           font-size: 20px;
           margin-top: 80px;
           display: block;
+          @media (max-width: 380px){
+            margin-bottom: 76px;
+          }
         }
       }
       @import 'socialicons';
@@ -71,5 +82,8 @@
   @import 'product';
   .offset{
     height: 170px;
+    @media (max-width: 450px){
+      height:110px;
+    }
   }
 }

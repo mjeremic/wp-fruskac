@@ -39,7 +39,6 @@ header .menus {
       header .menus div.primary-menu ul li {
         float: left;
         list-style: none;
-        width: calc( 100% / 6);
         padding: 15px 15px;
         text-align: center; }
         header .menus div.primary-menu ul li a {
@@ -89,7 +88,6 @@ header.scroll-down {
       position: absolute; }
       header.scroll-down div.logo div.logo-img img {
         position: absolute;
-        left: calc(50% - 40px);
         width: 40px;
         top: -37px; }
     header.scroll-down div.logo div.logo-title {
@@ -97,10 +95,7 @@ header.scroll-down {
   header.scroll-down div.primary-menu {
     background-color: #252121; }
     header.scroll-down div.primary-menu ul li {
-      width: calc( 100% / 7);
       padding: 32px 10px; }
-      header.scroll-down div.primary-menu ul li:nth-child(4) {
-        margin-left: calc( 100% / 7); }
       header.scroll-down div.primary-menu ul li a {
         color: #fff;
         font-size: 11px; }
@@ -129,7 +124,7 @@ header.scroll-down {
           cursor: pointer;
           position: fixed;
           top: 28px;
-          right: calc(100% / 12 / 2);
+          right: 20px;
           z-index: 99;
           height: 20px;
           padding-top: 7px; }
@@ -199,7 +194,13 @@ header.scroll-down {
               color: #fff;
               font-size: 11px; }
       header .menus div.language ul {
-        padding-left: calc(50% - 80px); } }
+        padding-left: 45%; } }
+      @media (max-width: 1200px) and (max-width: 768px) {
+        header .menus div.language ul {
+          padding-left: 43%; } }
+      @media (max-width: 1200px) and (max-width: 380px) {
+        header .menus div.language ul {
+          padding-left: 41%; } }
 
 section {
   position: relative; }
@@ -335,7 +336,12 @@ section.map {
 
 @media (max-width: 767px) {
   section.map {
-    padding-top: 30px; }
+    padding-top: 30px; } }
+  @media (max-width: 767px) and (max-width: 380px) {
+    section.map .map-contact {
+      top: 49px; } }
+
+@media (max-width: 767px) {
     section.map .map-contact p, section.map .map-contact p > a {
       font-size: 12px;
       letter-spacing: 2px;
@@ -415,7 +421,7 @@ section#video {
           font-size: 15px; } }
   section#video .slider-img {
     width: 100%; }
-  section#video video {
+  section#video video, section#video .slider-img {
     -webkit-transform: translateX(-50%) translateY(-50%);
     -moz-transform: translateX(-50%) translateY(-50%);
     -ms-transform: translateX(-50%) translateY(-50%);
@@ -523,17 +529,24 @@ section#video {
           #quet .product-one .details .vine-info a:hover img {
             opacity: 1; }
     #quet .product-one.four-pr {
-      padding: 0 15px; }
+      padding: 0 30px; }
       @media (max-width: 630px) {
         #quet .product-one.four-pr {
           margin-bottom: -5px !important; } }
       #quet .product-one.four-pr .details {
         height: 255px; }
+        @media (max-width: 450px) {
+          #quet .product-one.four-pr .details {
+            height: 210px; } }
       #quet .product-one.four-pr .vine-img a {
         margin-left: -10px; }
         #quet .product-one.four-pr .vine-img a img {
           height: 330px;
           bottom: 140px; }
+          @media (max-width: 450px) {
+            #quet .product-one.four-pr .vine-img a img {
+              height: 240px;
+              bottom: 70px; } }
       #quet .product-one.four-pr .vine-info {
         padding: 18px;
         line-height: 29px;
@@ -607,9 +620,17 @@ section#video {
     position: relative; }
     @media (max-width: 1200px) {
       #single-product .product-details .details-featured {
-        height: 494px;
+        height: 694px;
         margin-top: 22px;
         padding-top: 30px; } }
+    @media (max-width: 450px) {
+      #single-product .product-details .details-featured {
+        height: 694px;
+        margin-top: 22px;
+        padding-top: 30px; } }
+    @media (max-width: 320px) {
+      #single-product .product-details .details-featured {
+        height: 869px; } }
     #single-product .product-details .details-featured .details-wrap {
       position: absolute;
       top: 42%;
@@ -644,6 +665,9 @@ section#video {
         font-size: 20px;
         margin-top: 80px;
         display: block; }
+        @media (max-width: 380px) {
+          #single-product .product-details .details-featured .details-wrap span {
+            margin-bottom: 76px; } }
     #single-product .product-details .details-featured .social {
       position: absolute;
       bottom: 45px;
@@ -659,6 +683,9 @@ section#video {
       #single-product .product-details .details-featured .social.blog {
         bottom: inherit;
         text-align: inherit; }
+        @media (max-width: 380px) {
+          #single-product .product-details .details-featured .social.blog {
+            padding-left: 15px; } }
         #single-product .product-details .details-featured .social.blog a i {
           font-size: 3em; }
   #single-product .product-one {
@@ -749,17 +776,24 @@ section#video {
           #single-product .product-one .details .vine-info a:hover img {
             opacity: 1; }
     #single-product .product-one.four-pr {
-      padding: 0 15px; }
+      padding: 0 30px; }
       @media (max-width: 630px) {
         #single-product .product-one.four-pr {
           margin-bottom: -5px !important; } }
       #single-product .product-one.four-pr .details {
         height: 255px; }
+        @media (max-width: 450px) {
+          #single-product .product-one.four-pr .details {
+            height: 210px; } }
       #single-product .product-one.four-pr .vine-img a {
         margin-left: -10px; }
         #single-product .product-one.four-pr .vine-img a img {
           height: 330px;
           bottom: 140px; }
+          @media (max-width: 450px) {
+            #single-product .product-one.four-pr .vine-img a img {
+              height: 240px;
+              bottom: 70px; } }
       #single-product .product-one.four-pr .vine-info {
         padding: 18px;
         line-height: 29px;
@@ -780,6 +814,9 @@ section#video {
             width: auto; }
   #single-product .offset {
     height: 170px; }
+    @media (max-width: 450px) {
+      #single-product .offset {
+        height: 110px; } }
 
 .cover-wrap {
   left: 0;
@@ -825,6 +862,10 @@ section#video {
 
 .blog-page {
   padding-bottom: 100px; }
+  @media (max-width: 380px) {
+    .blog-page {
+      padding-left: 30px;
+      padding-right: 30px; } }
   .blog-page h1 {
     font-family: "Cantata One", serif;
     font-weight: 400;
@@ -832,6 +873,10 @@ section#video {
     letter-spacing: 1.5px;
     padding: 30px 0px 0px 0px;
     margin-bottom: 0px; }
+    @media (max-width: 380px) {
+      .blog-page h1 {
+        padding-top: 10px;
+        font-size: 30px; } }
   .blog-page span.date {
     color: #7a7a7a;
     font-family: "Open Sans";
@@ -857,6 +902,9 @@ section#video {
     .blog-page .social.blog {
       bottom: inherit;
       text-align: inherit; }
+      @media (max-width: 380px) {
+        .blog-page .social.blog {
+          padding-left: 15px; } }
       .blog-page .social.blog a i {
         font-size: 3em; }
 
@@ -944,3 +992,12 @@ section.black-space-bottom {
   @media (max-width: 767px) {
     section.black-space-bottom {
       padding-bottom: 30px; } }
+
+a[href^="http://maps.google.com/maps"] {
+  display: none !important; }
+
+a[href^="https://maps.google.com/maps"] {
+  display: none !important; }
+
+.gmnoprint a, .gmnoprint span, .gm-style-cc {
+  display: none; }

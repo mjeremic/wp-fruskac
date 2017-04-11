@@ -41,6 +41,9 @@ section.map{
   section.map{
     padding-top: 30px;
     .map-contact{
+      @media (max-width: 380px){
+        top: 49px;
+      }
       p, p>a{
         font-size: 12px;
         letter-spacing: 2px;
