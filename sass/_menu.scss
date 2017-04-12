@@ -112,6 +112,7 @@ header{
           //left: calc(50% - 40px);
           width: 40px;
           top: -37px;
+          z-index: 99;
         }
       }
       div.logo-title{
@@ -137,6 +138,48 @@ header{
     }
     div.language{
       display: none;
+    }
+
+  }
+  &.lang{
+    .menus{
+      position: relative;
+      div.language{
+        height: 25px;
+        ul{
+          position: absolute;
+          top: 6%;
+          left: 70%;
+          @media(max-width:1480px){
+            left: 73%;
+          }
+          @media(max-width:1320px){
+            left: 75%;
+          }
+          li a{
+            color:$dark-grey;
+          }
+        }
+      }
+
+    }
+    &.scroll-down{
+      div.language{
+        display: block!important;
+        height: 0;
+        ul{
+          position: absolute;
+          top: 26%;
+          left: 72%;
+          @media(max-width:1380px){
+            left: 77%;
+          }
+          li a{
+            color:$whitecolor;
+            font-size: 11px;
+          }
+        }
+      }
     }
   }
 }
@@ -254,15 +297,23 @@ header{
         }
       }
       div.language ul{
-        //padding-left: calc(50% - 80px);
+
         padding-left: 45%;
-        @media (max-width:768px){
-          //padding-left: calc(50% - 60px);
+        @media (max-width:800px){
+
           padding-left: 43%;
         }
+        @media (max-width:768px){
+
+          padding-left: 42%;
+        }
+        @media (max-width:420px){
+
+          padding-left: 37%;
+        }
         @media (max-width:380px){
-          //padding-left: calc(50% - 60px);
-          padding-left: 41%;
+
+          padding-left: 32%;
         }
       }
     }

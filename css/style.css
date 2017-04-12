@@ -89,7 +89,8 @@ header.scroll-down {
       header.scroll-down div.logo div.logo-img img {
         position: absolute;
         width: 40px;
-        top: -37px; }
+        top: -37px;
+        z-index: 99; }
     header.scroll-down div.logo div.logo-title {
       display: none; }
   header.scroll-down div.primary-menu {
@@ -101,6 +102,37 @@ header.scroll-down {
         font-size: 11px; }
   header.scroll-down div.language {
     display: none; }
+
+header.lang .menus {
+  position: relative; }
+  header.lang .menus div.language {
+    height: 25px; }
+    header.lang .menus div.language ul {
+      position: absolute;
+      top: 6%;
+      left: 70%; }
+      @media (max-width: 1480px) {
+        header.lang .menus div.language ul {
+          left: 73%; } }
+      @media (max-width: 1320px) {
+        header.lang .menus div.language ul {
+          left: 75%; } }
+      header.lang .menus div.language ul li a {
+        color: #252121; }
+
+header.lang.scroll-down div.language {
+  display: block !important;
+  height: 0; }
+  header.lang.scroll-down div.language ul {
+    position: absolute;
+    top: 26%;
+    left: 72%; }
+    @media (max-width: 1380px) {
+      header.lang.scroll-down div.language ul {
+        left: 77%; } }
+    header.lang.scroll-down div.language ul li a {
+      color: #fff;
+      font-size: 11px; }
 
 @media (max-width: 1200px) {
   header {
@@ -195,12 +227,18 @@ header.scroll-down {
               font-size: 11px; }
       header .menus div.language ul {
         padding-left: 45%; } }
-      @media (max-width: 1200px) and (max-width: 768px) {
+      @media (max-width: 1200px) and (max-width: 800px) {
         header .menus div.language ul {
           padding-left: 43%; } }
+      @media (max-width: 1200px) and (max-width: 768px) {
+        header .menus div.language ul {
+          padding-left: 42%; } }
+      @media (max-width: 1200px) and (max-width: 420px) {
+        header .menus div.language ul {
+          padding-left: 37%; } }
       @media (max-width: 1200px) and (max-width: 380px) {
         header .menus div.language ul {
-          padding-left: 41%; } }
+          padding-left: 32%; } }
 
 section {
   position: relative; }
