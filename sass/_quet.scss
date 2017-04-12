@@ -1,4 +1,4 @@
-#quet{
+#quet, #fruskac{
   background: url(../img/glass.jpeg);
   background-repeat: no-repeat;
   background-position: left center;
@@ -43,4 +43,31 @@
       height: 80px;
     }
   }
+
+}
+#fruskac{
+  background: url(../img/podloga.jpg);
+  padding-bottom: 100px;
+  background-position: right bottom;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  .center-title {
+    color: $whitecolor;
+    font-family: $fira-font;
+    @media (max-width: 767px) {
+      font-size: 16px;
+      width: 80%;
+    }
+  }
+  img.template-logo{
+    width: 310px;
+    margin: 0 auto;
+    display: block;
+    padding: 60px 0;
+    position: relative;
+    @media (max-width: 1200px){
+      padding-top: 25px;
+    }
+  }
+
 }
